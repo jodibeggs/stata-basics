@@ -1,3 +1,5 @@
+*  note:  this is for use with Stata 15.1, earlier versions may behave slightly differently
+
 *  change working directory to your relevant Stata directory for the project (so you dont have to keep specifying full paths)
 *  in Windows, you can go to the desired folder in file explorer, right click, and choose "Copy address as text"
 cd "C:\Path\Folder\SubFolder\YouGetTheIdea\StataStuff"
