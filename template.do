@@ -25,5 +25,8 @@ use "Data Files\mydata.dta"
 
 *  DO ALL OF YOUR FUN STATA STUFF IN HERE
 
+beep
+*  this is helpful particularly if your code takes a while to run since it tells you your code is done while you're browsing twitter
+
 log close
 *  close the log file so only stuff relating to this script goes in the log
