@@ -9,7 +9,7 @@ log close _all
 *  open a log file to store your output (more user friendly than just reading it in the Stata output buffer)
 set logtype text
 log using "Log Files\template.txt", replace
-*  ideally you would name this the same as yout script so they are easy to match to one another
+*  ideally you would name this the same as your script so they are easy to match to one another
 *  note that it's helpful to have a "Log Files" folder- you have to create this yourself to not cause an error
 *  this will overwrite the log file each time you run the script
 
