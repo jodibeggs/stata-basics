@@ -20,8 +20,14 @@ set more off
 *  this is optional but will prevent you from having to respond to the "more" prompt in the Stata window
 *  if you really want to use the more prompt, you can change this to "set more on", though this should be the default behavior
 
+*  if you have data ready to go
 use "Data Files\mydata.dta"
 *  note that it's helpful to have a "Data Files" folder, also don't forget to put your data files there
+
+*  or if you are importing a raw file
+import delimited using "Raw Data\CSV or Similar.csv", varnames(1)
+*  if you really have to import an Excel sheet
+import excel using "Raw Data\Excel Workbook.xlsx", firstrow sheet("Sheet I Want to Import")
 
 *  DO ALL OF YOUR FUN STATA STUFF IN HERE
 
